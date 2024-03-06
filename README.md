@@ -1,2 +1,2 @@
 # PBO
-repository ini untuk tugas PBO
+repository ini untuk semua sesi tugas PBO
