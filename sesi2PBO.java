@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyMWV6MXCG2sAs9uJMbGVpBP",
+      "authorship_tag": "ABX9TyMtkkx8IBsO+CZ6wlvORnL9",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -23,7 +23,7 @@
         "colab_type": "text"
       },
       "source": [
-        "<a href=\"https://colab.research.google.com/github/AlfaruqTi22E/PBO/blob/main/sesi2PBO.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+        "<a href=\"https://colab.research.google.com/github/AlfaruqTi22E/PBO/blob/main/sesi2PBO.java\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
       ]
     },
     {
@@ -107,19 +107,16 @@
         "        Segitiga s1 = new Segitiga(10, 15);\n",
         "\n",
         "        // Mencetak luas segitiga\n",
-        "        System.out.println(\"Luas segitiga = \" + s1.getLuas());\n",
+        "        System.out.println(\"Luas segitiga: \" + s1.getLuas());\n",
         "\n",
-        "        // Membuat objek Buku dengan penulis \"J.K. Rowling\", judul \"Harry Potter and the Philosopher's Stone\", harga 100000, dan nomor_penerbit 1234\n",
-        "        Buku b1 = new Buku(\"J.K. Rowling\", \"Harry Potter and the Philosopher's Stone\", 100000, 1234);\n",
+        "        // Membuat objek Buku\n",
+        "        Buku buku1 = new Buku(\"John Doe\", \"Java Programming\", 49.99, 123);\n",
         "\n",
-        "        // Membuat objek Buku dengan penulis \"George R.R. Martin\", judul \"A Game of Thrones\", harga 150000, dan nomor_penerbit 5678\n",
-        "        Buku b2 = new Buku(\"George R.R. Martin\", \"A Game of Thrones\", 150000, 5678);\n",
-        "\n",
-        "        // Menghitung harga total buku\n",
-        "        double total = b1.getHarga() + b2.getHarga();\n",
-        "\n",
-        "        // Mencetak harga total buku\n",
-        "        System.out.println(\"Harga total buku = \" + total);\n",
+        "        // Menampilkan informasi buku\n",
+        "        System.out.println(\"Judul buku: \" + buku1.getJudul());\n",
+        "        System.out.println(\"Penulis: \" + buku1.getPenulis());\n",
+        "        System.out.println(\"Harga: $\" + buku1.getHarga());\n",
+        "        System.out.println(\"Nomor penerbit: \" + buku1.getNomor_penerbit());\n",
         "    }\n",
         "}"
       ]
